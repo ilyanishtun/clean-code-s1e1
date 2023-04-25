@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header-img {
+.header__img {
   width: 100%;
 }
-.header .link-info {
+.header .link__info {
   font-family: fantasy, cursive;
 }
 
@@ -34,19 +34,19 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task-row__wrapper {
   display: flex;
 }
 .list {
   margin: 0;
   padding: 0px;
 }
-.list-item, 
-.list-name {
+.list__item, 
+.list__name {
   list-style: none;
 }
 .input,
-.checkbox-task,
+.checkbox__task,
 button{
   outline: none;
 }
